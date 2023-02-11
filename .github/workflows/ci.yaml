@@ -2,7 +2,7 @@ name: ci-node-workflow
 on: [push]
 jobs:
   check-application:
-    runs-on: self-hosted
+    runs-on: ubuntu:18.04
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2
