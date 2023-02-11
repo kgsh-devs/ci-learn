@@ -1,0 +1,22 @@
+{
+  "name": "continuous-integration",
+  "version": "1.0.0",
+  "description": "learning CI, creating pipelines, ...",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koguishi/ci.git"
+  },
+  "author": "edson koguishi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koguishi/ci/issues"
+  },
+  "homepage": "https://github.com/koguishi/ci#readme",
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
