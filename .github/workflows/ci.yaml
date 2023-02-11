@@ -1,5 +1,7 @@
 name: ci-node-workflow
 on:
+  push:
+    branches: [ develop ]
   pull_request:
     branches: [ develop ]
 
@@ -11,5 +13,6 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18
-    - run: npm ci
+    # - run: npm ci
     - run: npm test    
+    - run: npm run
